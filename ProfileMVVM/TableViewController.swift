@@ -9,7 +9,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    var profiles: [Profile]?
+    var profiles: [Profile]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,11 @@ class TableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+       guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TableViewCell else { return UITableViewCell() }
+
+        let profile = profiles[indexPath.row]
+        cell.ageLabel.text = "\(String(describing: profile.age))"
+        cell.fullNameLabel.text = (profile.name) + " " + (profile.secondName)
         return cell
     }
 }
