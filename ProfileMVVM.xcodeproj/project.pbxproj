@@ -20,6 +20,8 @@
 		004E81792927EFAF0030DBDD /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E81782927EFAF0030DBDD /* TableViewCellViewModelType.swift */; };
 		004E817B2927F0680030DBDD /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E817A2927F0680030DBDD /* TableViewCellViewModel.swift */; };
 		004E817D2927FBF40030DBDD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E817C2927FBF40030DBDD /* DetailViewController.swift */; };
+		004E817F2927FC680030DBDD /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E817E2927FC680030DBDD /* DetailViewModelType.swift */; };
+		004E81812927FC8A0030DBDD /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E81802927FC8A0030DBDD /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		004E81782927EFAF0030DBDD /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
 		004E817A2927F0680030DBDD /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
 		004E817C2927FBF40030DBDD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		004E817E2927FC680030DBDD /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
+		004E81802927FC8A0030DBDD /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 			children = (
 				004E81722927E2220030DBDD /* ViewModel.swift */,
 				004E817A2927F0680030DBDD /* TableViewCellViewModel.swift */,
+				004E81802927FC8A0030DBDD /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			children = (
 				004E81742927E2730030DBDD /* TableViewViewModelType.swift */,
 				004E81782927EFAF0030DBDD /* TableViewCellViewModelType.swift */,
+				004E817E2927FC680030DBDD /* DetailViewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 				004E816D2927D79F0030DBDD /* Profile.swift in Sources */,
 				004E816B2927D7640030DBDD /* TableViewController.swift in Sources */,
 				004E81752927E2730030DBDD /* TableViewViewModelType.swift in Sources */,
+				004E817F2927FC680030DBDD /* DetailViewModelType.swift in Sources */,
+				004E81812927FC8A0030DBDD /* DetailViewModel.swift in Sources */,
 				004E817B2927F0680030DBDD /* TableViewCellViewModel.swift in Sources */,
 				004E817D2927FBF40030DBDD /* DetailViewController.swift in Sources */,
 				004E81732927E2220030DBDD /* ViewModel.swift in Sources */,

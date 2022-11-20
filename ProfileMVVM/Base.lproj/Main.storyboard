@@ -60,17 +60,32 @@
             </objects>
             <point key="canvasLocation" x="1079.7101449275362" y="-33.482142857142854"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="vAD-md-CkF">
             <objects>
-                <viewController id="32q-8Z-oZh" sceneMemberID="viewController">
+                <viewController id="32q-8Z-oZh" customClass="DetailViewController" customModule="ProfileMVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B9e-ux-Hp2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xon-1M-Is2">
+                                <rect key="frame" x="186" y="437.66666666666669" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nJJ-z0-0Wy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xon-1M-Is2" firstAttribute="centerY" secondItem="B9e-ux-Hp2" secondAttribute="centerY" id="kZp-RV-MZX"/>
+                            <constraint firstItem="xon-1M-Is2" firstAttribute="centerX" secondItem="B9e-ux-Hp2" secondAttribute="centerX" id="qiP-GH-dxF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cyd-JT-pAK"/>
+                    <connections>
+                        <outlet property="textLabel" destination="xon-1M-Is2" id="s1h-ct-nP2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dwc-cE-dZs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
