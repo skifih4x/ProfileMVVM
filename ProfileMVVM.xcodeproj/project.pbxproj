@@ -22,6 +22,7 @@
 		004E817D2927FBF40030DBDD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E817C2927FBF40030DBDD /* DetailViewController.swift */; };
 		004E817F2927FC680030DBDD /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E817E2927FC680030DBDD /* DetailViewModelType.swift */; };
 		004E81812927FC8A0030DBDD /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E81802927FC8A0030DBDD /* DetailViewModel.swift */; };
+		004E8183292A7E9F0030DBDD /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E8182292A7E9F0030DBDD /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		004E817C2927FBF40030DBDD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		004E817E2927FC680030DBDD /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
 		004E81802927FC8A0030DBDD /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		004E8182292A7E9F0030DBDD /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				004E81712927DA270030DBDD /* View */,
 				004E81762927E2EC0030DBDD /* ViewModel */,
 				004E81772927E2F20030DBDD /* Protocols */,
+				004E8182292A7E9F0030DBDD /* Box.swift */,
 			);
 			path = ProfileMVVM;
 			sourceTree = "<group>";
@@ -120,8 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				004E81742927E2730030DBDD /* TableViewViewModelType.swift */,
-				004E81782927EFAF0030DBDD /* TableViewCellViewModelType.swift */,
 				004E817E2927FC680030DBDD /* DetailViewModelType.swift */,
+				004E81782927EFAF0030DBDD /* TableViewCellViewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				004E816D2927D79F0030DBDD /* Profile.swift in Sources */,
 				004E816B2927D7640030DBDD /* TableViewController.swift in Sources */,
 				004E81752927E2730030DBDD /* TableViewViewModelType.swift in Sources */,
+				004E8183292A7E9F0030DBDD /* Box.swift in Sources */,
 				004E817F2927FC680030DBDD /* DetailViewModelType.swift in Sources */,
 				004E81812927FC8A0030DBDD /* DetailViewModel.swift in Sources */,
 				004E817B2927F0680030DBDD /* TableViewCellViewModel.swift in Sources */,
